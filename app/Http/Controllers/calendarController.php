@@ -18,7 +18,7 @@ class calendarController extends Controller
 
     private function getArrayDayByYearMonth( $date ){
         $ym = $this->getValueFromFomat($date,'Y-m');
-        $calendar = DB::table('calendars')->where( DB::raw("(DATE_FORMAT(date_ymd,'%Y-%m'))"),"2016-07" )->get();
+        $calendar = DB::table('calendars')->where(DB::raw("(DATE_FORMAT(date_ymd,'%Y-%m'))"),"2016-07")->get();
         return $calendar;
     }
 
