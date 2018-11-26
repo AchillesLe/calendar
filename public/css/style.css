@@ -55,45 +55,75 @@ span.privous:hover ,span.next:hover{
     width: 14.2%;
     text-align: center;
 }
-tr.head td{
+.table-calendar table tr.head td{
     height: 45px;
 }
-tr.number td{
+.table-calendar table tr.number td{
     height: 25px;
 }
-tr.anphabe td{
+.table-calendar table tr.anphabe td{
     height: 60px;
     color: #000000;
 }
-td.first{
+.table-calendar table tr.anphabe td.first{
+    color:  #B15968;
+}
+.table-calendar table tr.anphabe td.mid{
+    color:  #505050;
+}
+.table-calendar table tr.anphabe td.last{
+    color:   #4666A4;
+}
+.table-calendar table td.first{
     background-color: #FEF4F3;
     color:  #B15968;
 }
-td.mid{
+.table-calendar table td.mid{
     background-color: #EFEEF6;
     color:  #505050;
 }
-td.last{
+.table-calendar table td.last{
     background-color: #EBF3FE;
     color:  #4666A4;
 }
-td.color-s{
+.table-calendar table td.color-s{
     background-color: #EA7B77;
 }
-td.color-a{
+.table-calendar table td.color-a{
     background-color: #32B778;
 }
 
-td.color-b{
+.table-calendar table td.color-b{
     background-color: #039BE6;
 }
 
-td.color-c{
+.table-calendar table td.color-c{
     background-color: #7986CC;
 }
-td.color-d{
+.table-calendar td.color-d{
     background-color:#616161;
 }
-td.today{
-    border:1px solid #e8491d;
+.table-calendar table td:hover{
+    cursor: pointer;
 }
+
+.table-calendar table td.empty:hover{
+    cursor: default;
+}
+/* .table-calendar td.holiday:before{
+    content: "";
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    border: 1px solid #0a92ec;
+   
+}
+.table-calendar td.holiday_hotel::after{
+    content: "";
+    display: block;
+    margin: auto;
+    width: 70%;
+    height: 70%;
+    border: 1px solid #b620a9;
+} */

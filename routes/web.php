@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::get('/calendar', 'calendarController@index');
+Route::get('/getCalendar', 'calendarController@getCalendarHtml');
